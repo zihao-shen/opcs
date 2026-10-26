@@ -1,5 +1,30 @@
 schema_version: 1
 projects:
+  - id: history-crossroads
+    name: 另一种你 · 历史人物决策剧场
+    repo: https://git.chatgpt-team.site/0ab5af85-dd23-4ea3-9cd0-17b3b128a7ae/appgprj_6adf389afc608191a76263896d518c28.git
+    stage: VERIFY
+    status: active
+    owner: OPC研究员
+    goal: 提供可以立即体验的历史人物情境问答产品
+    hypothesis: 用户愿意完成并分享有具体答题依据的娱乐结果
+    next_action: 用户体验私有第一版，收集题目与结果的具体反馈；尚不收费
+    evidence:
+      - kind: 事实
+        source: https://szh-history-crossroads.szh0727.chatgpt.site
+        checked_at: '2026-10-26'
+        note: 私有部署回执 succeeded，源码提交 21a2e52b6bfcef788eebe55bd6bcf0f573e7cb48；不等于商业验证
+      - kind: 观察
+        source: ../ideas/history-crossroads.md
+        checked_at: '2026-10-26'
+        note: 开发者自检，12题8结果、恢复、重测、PNG导出及桌面手机布局通过；独立验收未进行
+    cost:
+      token: null
+      api_calls: null
+      cny: null
+      human_hours: null
+    decision: PENDING
+    last_reviewed: '2026-10-26'
   - id: ai-drama-stadio
     name: AI 漫剧
     repo: https://github.com/SqlBoy001/ai_drama_stadio.git
